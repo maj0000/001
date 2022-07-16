@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+<category>
+    <pattern>Hola, me gustaría hacer un pedido</pattern>
+    <template>Hola, un gusto poder saludarle y gracias por comunicarse con OREO. Por favor, elija el tipo de galleta que necesita:
+<ol>
+    <li>Tradicional</li>
+    <li>Red Velvet</li>
+    <li>Vainilla</li>
+</ol>
+
+</template>
+</category>
+<category>
+    <pattern>Tradicional</pattern>
+    <template>Listo, ahora indíquenos la cantidad por favor</template>
+</category>
+<category>
+    <pattern>100 </pattern>
+    <template>Le comentamos que cada unidad tiene un precio de e,35 pero a partir de 12 unidades el precio cambia a e,27 por tanto se le cobrará al precio al por mayor.</template>
+</category>
+<category>
+    <pattern>Listo, cómo hago el pago </pattern>
+    <template>Comuníquese por favor a este número de Atención al Cliente: 00000000</template>
+</category>
+</aiml>
